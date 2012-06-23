@@ -15,5 +15,13 @@
 
 	ptag.innerHTML = 'To be continue...';
 	document.body.appendChild(ptag);
-	
+
+
+/* 云 */
+    
+    var cloud = document.createElement('img');
+    cloud.src = 'http://pic.yupoo.com/baishuiz_v/C3TLk3Pb/R1vT1.png';
+    cloud.style.display = 'absolute';
+    document.body.appendChild(cloud);
+
 })();
